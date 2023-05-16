@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(45deg, purple, red);
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+
+
+.introducao {
+    text-align: center;
+    padding: 1em;
+}
+
+.titulo {
+    margin-bottom: 0.3em;
+}
+
+.formulario {
+    padding: 1em;
+    text-align: center;
+}
+
+.separacao_form {
+    margin: 0.8em 0;
+}
+
+.input {
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 0.2em 0.5em;
+}
+
+.input:hover {
+    background-color: aliceblue;
+}
+
+.verifica {
+    padding: 0.8em;
+    border: 1px solid black;
+    border-radius: 20px;
+    background: linear-gradient(45deg,red, orange);
+    color: #ffffff;
+    cursor: pointer;
+    box-shadow: 1px 8px 5px rgba(0, 0, 0, 0.5);
+    transition: 1s;
+}
+
+.verifica:hover {
+    background: linear-gradient(45deg,rgba(255, 0, 0, 0.705), rgba(255, 166, 0, 0.726));
+}
+
+.total_vale {
+    text-align: center;
+    font-size: 18px;
+}
+
+.separar_vale {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1em 0;
+}
+
+.mostrar {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px dotted orange;
+    border-radius: 8px;
+    width: 100px;
+    height: 150px;
+    text-align: center;
+    margin: 1em 1em;
+    padding: 0.5em;
+}
+
+.instrucao {
+    display: none;
+}
+
+.botao_vale {
+    margin-top: 0.5em;
+    padding: 0.2em;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(243, 160, 5);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.botao_vale:hover {
+    background-color: rgba(243, 160, 5, 0.616);
+}

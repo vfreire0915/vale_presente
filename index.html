@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo das recompensas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="tela">
+    <section class="introducao">
+        <h1 class="titulo">Jogo das recompensas</h1>
+        <p class="instrucao_jogo">O jogo consiste em responder as perguntas corretamente, são 6 no total, a cada pergunta certa você ganha um vale.</p>
+    </section>
+
+    <form class="formulario">
+        <div class="separacao_form">
+            <label for="q1">1- O Vitor é um:</label>
+            <input type="text" id="q1" class="input">
+        </div>
+
+        <div class="separacao_form">
+            <label for="q2">2- A Eduarda é uma:</label>
+            <input type="text" id="q2" class="input">
+        </div>
+
+        <div class="separacao_form">
+            <label for="q3">3- Quem é o mais gente boa:</label>
+            <input type="text" id="q3" class="input">
+        </div>
+
+        <div class="separacao_form">
+            <label for="q4">4- Quem tomou atitute:</label>
+            <input type="text" id="q4" class="input">
+        </div>
+
+        <div class="separacao_form">
+            <label for="q5">5- Quem é o mais chato:</label>
+            <input type="text" id="q5" class="input">
+        </div>
+
+        <div class="separacao_form">
+            <label for="q6">6- Quem acaba com a comida:</label>
+            <input type="text" id="q6" class="input">
+        </div>
+
+        <input type="button" class="verifica" value="Verificar respostas">
+    </form>
+
+    <p class="total_vale"></p>
+
+    <div class="separar_vale">
+        <div class="vale1 mostrar">
+            <p class="presente1 instrucao">Te amo</p>
+            
+            <button class="mostrar_vale1 botao_vale">Mostrar Vale</button>
+        </div>
+
+
+        <div class="vale2 mostrar">
+            <p class="presente2 instrucao">Aqui não tem nada, só pra dizer que te odeio</p>
+            
+            <button class="mostrar_vale2 botao_vale">Mostrar Vale</button>
+        </div>
+
+
+        <div class="vale3 mostrar">
+            <p class="presente3 instrucao">Vale um tapa</p>
+            
+            <button class="mostrar_vale3 botao_vale">Mostrar Vale</button>
+        </div>
+
+
+        <div class="vale4 mostrar">
+            <p class="presente4 instrucao">Me deve uma cerveja no pedrao</p>
+            
+            <button class="mostrar_vale4 botao_vale">Mostrar Vale</button>
+        </div>
+
+
+        <div class="vale5 mostrar">
+            <p class="presente5 instrucao">Respondo SIM para 5 perguntas suas</p>
+            
+            <button class="mostrar_vale5 botao_vale">Mostrar Vale</button>
+        </div>
+
+
+        <div class="vale6 mostrar">
+            <p class="presente6 instrucao">Toma no teu cu</p>
+
+            <button class="mostrar_vale6 botao_vale">Mostrar Vale</button>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+
+</body>
+</html>
